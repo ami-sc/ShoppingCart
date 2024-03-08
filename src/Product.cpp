@@ -28,7 +28,7 @@ Product::Product (string name, double price)
  *
  * @return  The name of the product.
  */
-string Product::getName ()
+const string Product::getName ()
 {
     return _name;
 }
@@ -38,7 +38,7 @@ string Product::getName ()
  *
  * @return  The price of the product.
  */
-double Product::getPrice ()
+const double Product::getPrice ()
 {
     return _price;
 }
@@ -48,7 +48,7 @@ double Product::getPrice ()
  *
  * @return  The quantity of the product.
  */
-int Product::getQuantity ()
+const int Product::getQuantity ()
 {
     return _quantity;
 }

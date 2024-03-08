@@ -20,9 +20,9 @@ class Product
 
         /** Accessors **/
 
-        string getName     ();
-        double getPrice    ();
-        int    getQuantity ();
+        const string getName     ();
+        const double getPrice    ();
+        const int    getQuantity ();
 
         /** Mutators **/
 
