@@ -29,8 +29,8 @@ class Catalog
 
         /** Accessors **/
 
-        Product   getProduct      (string code);
-        const int getProductCount ();
+        Product getProduct      (string code);
+        int     getProductCount () const;
 
         /** Mutators **/
 

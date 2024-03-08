@@ -93,7 +93,7 @@ Product Catalog::getProduct (string code)
  *
  * @return  The number of Products in the Catalog.
  */
-const int Catalog::getProductCount ()
+int Catalog::getProductCount () const
 {
     return _catalog.size();
 }
